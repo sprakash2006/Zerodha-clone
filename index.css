@@ -1,0 +1,572 @@
+*{
+    margin: 0 auto;
+    padding:0 auto;
+}
+
+.full-body {
+    background-color: white;
+}
+
+.container {
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    cursor:pointer;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0,0.1);
+    margin: bottom 0px;
+} 
+
+
+.zerodha-logo {
+    height:35%;
+    position:relative;
+    left:0px;
+    top:7px;
+    right:20px;
+    padding-right: 200px;
+    background-color:white;
+
+}
+
+
+#header-text {
+    font-size:1.1em;
+    font-family:sans-serif;
+    color:rgba(0, 0, 0,0.6);
+    text-decoration-line: none;
+    background-color:white;
+}
+
+
+#header-text:hover {
+    font-size:1.1em;
+    font-family:sans-serif;
+    color:#009dff;
+    text-decoration-line: none;
+    background-color:white;
+}
+
+
+
+
+#main-menu {
+    padding-top:7px;
+    padding-right:7px;
+    background-color:white;
+}
+
+
+.header-unordered-list {
+    color: white;
+    width:30%;
+    height:50%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    top:5px
+    
+}
+
+
+
+.intro-page-first-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+} 
+
+
+.intro-photo {
+    padding-top:65px;
+    padding-bottom:30px;
+    height:55%;
+    width:55%
+
+}
+
+
+.intro-page-heading {
+    color:#424242;
+    font-size: 50px;
+    font-weight:400;
+    font-family:sans-serif;
+    padding-top: 45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.intro-page-subheading {
+    color:#424242;
+    padding-top:10px;
+    padding-bottom:40px;
+    font-size:20px;
+    word-spacing: 2px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+}
+
+button {
+    color: white;
+    font-family:sans-serif;
+    height:45px;
+    width:220px;
+    font-size:1.19em;
+    font-weight: 300;
+    word-spacing:2px;
+    border-style: none;
+    background-color:#387ed1;
+    border-color:#387ed1;
+    border-radius:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition-duration: 1s;
+    transition-delay: 5ms;
+}
+
+button:hover {
+    color: white;
+    font-family:sans-serif;
+    height:45px;
+    width:220px;
+    font-size:1.19em;
+    font-weight: 300;
+    word-spacing:2px;
+    border-style: none;
+    background-color:black;
+    border-radius:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+ .main-policy-ecosystem-main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:175px;
+    padding-left:13%;
+    padding-right:13%;
+    margin-top:250px;
+    
+}
+
+
+.ecosystem-product-link-main {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#zerodha-ecosystem {
+    height:600px;
+}
+
+.product-link-main {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    padding-top:30px;
+    font-family: sans-serif;
+    font-size:18px;
+}
+
+.ecosystem-product-link {
+    color: #387ed1;
+    transition-duration:1s;
+    cursor:pointer;
+    
+}
+
+.ecosystem-product-link:hover {
+    color: #424242;
+}
+
+.policy-heading-and-subheading {
+    padding-right: 15%;
+}
+
+.trust-with-confidence {
+    color:#424242;
+    font-family:sans-serif;
+    font-size: 38px;
+    padding-bottom:40px;
+    margin-right:10%;
+}
+
+
+.policy-heading-and-subheading p:nth-child(2n+1) {
+    color:#424242;
+    font-family:sans-serif;
+    font-size:23px;
+    padding-top:25px;
+    padding-bottom:12px;
+} 
+
+.policy-heading-and-subheading p:nth-child(2n) {
+    display:flex;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+    font-size:16px;
+    color: #666666;
+    /* padding-right:25px; */
+    padding-bottom:20px;
+    margin-right:10%;
+    line-height:25px;
+    word-spacing:1.5px;
+}
+
+
+
+.policy-heading-and-subheading p:nth-child(2n)::selection {
+    display:flex;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+    font-size:16px;
+    color: aliceblue;
+    padding-bottom:20px;
+    margin-right:10%;
+    line-height:25px;
+    word-spacing:1.5px;
+    background-color:#387ed1;
+}  
+
+
+#press-logo {
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+
+}
+
+.our-pricing-and-0-0-20-policy {
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 1px;
+    padding-top:70px;
+    margin: 0px 185px;
+    margin-top:100px
+}
+
+.unbeatable-pricing {
+    color:#424242;
+    font-family:sans-serif;
+    font-size: 38px;
+    padding-bottom:25px;
+    padding-right:10px;
+    margin: 0px 0px 0px 0px;
+}
+
+.our-pricing-column {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding-right:4%;
+}
+
+.pricing-details {
+    display:flex;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+    font-size:17px;
+    font-weight:500;
+    color:#424242;
+    line-height:25px;
+    word-spacing:1.5px;
+}
+
+
+
+.pricing-details-link {
+    color:#387ed1;
+    font-family:sans-serif;
+    font-size:19px;
+    padding-top:15px;
+    padding-right:293px;
+    transition-duration:1s;
+    cursor:pointer;
+}
+
+.pricing-details-link:hover {
+    color:#424242;
+    font-family:sans-serif;
+    font-size:19px;
+    padding-top:15px;
+}
+
+
+#our-0-0-20-policy {
+    height:60%;
+    width:60%;
+}
+
+
+.open-market-education {
+    display:flex;
+    flex-direction: row;
+    margin-top:11%;
+    margin-left:135px;
+    margin-right:100px
+} */
+
+#varsity-logo {
+    height:340px;
+}
+
+.open-education-and-qna {
+    padding:30px 45px;
+    padding-left:170px;
+}
+
+.open-education-heading {
+    color:#424242;
+    font-family:sans-serif;
+    font-size: 38px;
+    padding-bottom:0px;
+    padding-right:10px;
+    margin: 0px 0px 0px 0px;
+}
+
+.open-education-subheading {
+    color:#424242;
+    font-family:sans-serif;
+    font-size:17px;
+    padding-top:30px;
+    line-height:28px;
+    
+}
+
+.open-education-link {
+    color:#387ed1;
+    font-family:sans-serif;
+    font-size:19px;
+    padding-top:15px;
+    transition-duration:1s;
+    cursor:pointer;
+}
+
+.open-education-link:hover {
+    color:#424242;
+    font-family:sans-serif;
+    font-size:19px;
+    padding-top:15px;
+}
+
+
+.zerodha-account-opening-call {
+    height:300px;
+    margin-top:10%;
+    margin-bottom:2%;
+    margin-right:12%;
+    margin-left:12%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.zerodha-account-opening-call-heading {
+    color:rgba(66, 66, 66, 0.919);
+    font-size:35px;
+    font-family:sans-serif;
+    margin-top:2%;
+    margin-bottom:2%;
+
+}
+
+.zerodha-account-opening-call-heading-details {
+    color:rgba(66, 66, 66,0.9);
+    font-size:17px;
+    word-spacing:1px;
+    font-family:sans-serif;
+    margin-top:1%;
+    margin-bottom:3%;
+}
+
+
+
+.footer-navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 4% 11%;
+}
+
+.logo-credits-rights-socials {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+} */
+
+#zerodha-logo-footer {
+    margin-top:11px;
+    margin-left:0;
+    margin-bottom:12px;
+}
+
+.credits-info {
+    margin-left:0;
+    margin-top:13px;
+    font-size:14px;
+    font-family:sans-serif;
+    margin-bottom:4px;
+    color:rgba(66, 66, 66,0.8);
+}
+
+.rights-info {
+    margin-left:0;
+    font-size:14px;
+    font-family:sans-serif;
+    margin-bottom:25px;
+    margin-left:13px;
+    color:rgba(66, 66, 66,0.8);
+
+}
+
+#x-fb-insta-in-logo {
+    margin-left:0;
+    margin-bottom:0px;
+    height:40px;
+}
+
+#yt-wa-tele-logo {
+    height:35px;
+    position:relative;
+    right:19px;
+    
+}
+
+h3 {
+    color: rgba(66, 66, 66,0.8);
+    font-family: sans-serif;
+    font-size:19px;
+    margin-bottom:12%;
+    letter-spacing:0.7px;
+}
+
+
+.company {
+    color: rgba(0, 0, 0,0.6);
+    line-height: 180%;
+    font-family: sans-serif;
+    word-spacing:2px;
+    padding-top:5px;
+}
+
+.support {
+    color: rgba(0, 0, 0,0.6);
+    line-height: 180%;
+    font-family: sans-serif;
+    word-spacing:2px;
+}
+
+.account {
+    color: rgba(0, 0, 0,0.6);
+    line-height: 180%;
+    font-family: sans-serif;
+    word-spacing:2px;
+}
+
+.company p {
+    margin-top:6px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.company p:hover {
+    margin-top:6px;
+    color: #009dff;
+}
+
+
+.support p {
+    margin-top:6px;
+    cursor:pointer;
+}
+
+.support p:hover {
+    margin-top:6px;
+    color: #009dff;
+}
+
+
+.account p {
+    cursor:pointer;
+    margin-top:6px
+}
+
+.account p:hover {
+    margin-top:6px;
+    color: #009dff;
+}
+
+article a {
+    color:#387ed1;
+}
+
+.footer-info-details {
+    color:rgba(66, 66, 66,0.6);
+    font-size:10px;
+    font-weight: 100;
+    font-family:sans-serif;
+    word-spacing:1px;
+    line-height:18px;
+    margin-top:5%;
+    margin-bottom:0;
+    margin-right:9%;
+    margin-left:13%;
+}
+
+
+
+.footer-info-details article {
+    margin-bottom:18px;
+}
+
+#last-article {
+    margin-bottom:9px;
+}
+
+.footer-quick-links{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left:17%;
+    margin-right:17%;
+    margin-bottom:0.7%;
+}
+
+.footer-quick-links p {
+    color:rgba(66, 66, 66, 0.65);
+    font-family: sans-serif;
+    font-size:13px;
+    transition-duration:1s;
+    cursor:pointer;
+}
+
+.footer-quick-links p:hover {
+    color:#009dff;
+    font-family: sans-serif;
+    font-size:13px;
+} 
