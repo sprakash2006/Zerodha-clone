@@ -73,6 +73,128 @@
     
 }
 
+#main-menu-button-popup {
+    background-color:white;
+    box-shadow:1px 1px 12px #424242;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    margin-left:54%;
+    padding:40px;
+    z-index: -1;
+}
+.main-menu-button-popup-top {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:10%;
+}
+
+
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-logo {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* background-color: aquamarine; */
+    padding-right:17px;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-logo p:nth-child(2) {
+    color: #424242;
+    font-size:0.9em;
+    margin-top:12px;
+    font-family:sans-serif;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-logo p:nth-child(3) {
+    color: #424242;
+    font-size:1em;
+    margin-top:4.5px;
+    font-family:sans-serif;
+}
+
+
+.main-menu-button-popup-top .main-menu-button-popup-top-console-logo {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* background-color: aquamarine; */
+    padding: 0 17px;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-console-logo p:nth-child(2) {
+    color: #424242;
+    font-size:0.9em;
+    margin-top:12px;
+    font-family:sans-serif;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-console-logo p:nth-child(3) {
+    color: #424242;
+    font-size:1em;
+    margin-top:7px;
+    font-family:sans-serif;
+}
+
+
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-connect-logo {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* background-color: aquamarine; */
+    padding:0 17px;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-connect-logo p:nth-child(2) {
+    color: #424242;
+    font-size:0.9em;
+    margin-top:12px;
+    font-family:sans-serif;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-kite-connect-logo p:nth-child(3) {
+    color: #424242;
+    font-size:1em;
+    margin-top:7px;
+    font-family:sans-serif;
+}
+
+
+.main-menu-button-popup-top .main-menu-button-popup-top-coin-logo {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* background-color: aquamarine; */
+    padding-left:17px;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-coin-logo p:nth-child(2) {
+    color: #424242;
+    font-size:0.9em;
+    margin-top:12px;
+    font-family:sans-serif;
+}
+.main-menu-button-popup-top .main-menu-button-popup-top-coin-logo p:nth-child(3) {
+    color: #424242;
+    font-size:1em;
+    margin-top:7px;
+    font-family:sans-serif;
+}
+
+
+.main-menu-button-popup-utilities-updates-education {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.main-menu-button-popup-utilities-updates {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
 
 
 .intro-page-first-div {
